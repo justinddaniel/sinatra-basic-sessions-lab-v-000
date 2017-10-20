@@ -1,4 +1,4 @@
-class item
+class Item
   attr_accessor :name
 
   ITEMS = []
@@ -8,7 +8,7 @@ class item
     ITEMS << self
   end
 
-  def self.all 
+  def self.all
     ITEMS
   end
 
